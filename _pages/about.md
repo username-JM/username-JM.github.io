@@ -6,12 +6,11 @@ layout: single
 
 ## 준모의 개발 블로그
 
-만드는데 고생 많이 한 만큼
-열심히 운영해봐야지~
+Name    :   Junmo, KIM
+Age       :   24(2020 기준)
 
-1. 알고리즘 문제 풀이?
-2. CS231N 코스 공부
-3. 개인 프로젝트
+- 2013 ~ 2016 : 동두천외국어고등학교(DFL)-중영과
+- 2016 ~ 2020 : Kwangwoon Univ. Computer Engineering
 
-이후 추가 에정
-linux
+
+Junmo Kim received a B.S in computer engineering from Kwangwoon University, Seoul, South Korea. His research include machine-learning algorithms and computer vision. 
