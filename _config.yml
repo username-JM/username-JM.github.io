@@ -32,9 +32,9 @@ words_per_minute         : 200
 comments:
   provider               : "disqus"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "username-jm-github-io"# https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
-    server               : "username-jm-github-io.disqus.com"# https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
