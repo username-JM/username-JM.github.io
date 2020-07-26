@@ -3,9 +3,9 @@ title: "드디어 시작이다!"
 excerpt: "Too hard to start, but finally successed!"
 
 categories:
-	-Blog
+- Blog
 tags:
-	-Blog
+- Blog
 last_modified_at: 2020-07-26T14:28:00-05:00
 ---
 
