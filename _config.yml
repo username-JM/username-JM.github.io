@@ -24,7 +24,7 @@ description              : "멋쟁이 개발자가 되고 싶은 학사애송이
 url                      : "https://username-JM.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/assets/images/IMG_2290.jpg"
+teaser                   : "/assets/images/main.jpeg"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "Junmo, KIM"
-  avatar           : "/assets/images/IMG_2290.jpg"
+  avatar           : "/assets/images/main.jpeg"
   bio              : "별볼일 없는 공돌이"
   location         : "Seoul, South Korea"
   email            :
