@@ -2,5 +2,7 @@
 main:
   - title: "블로그 방문하기"
     url: https://username-jm.github.io/
+  - title: "categories"
+    url: /categories/
   - title: "About"
     url: /about/
