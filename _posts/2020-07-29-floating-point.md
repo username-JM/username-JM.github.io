@@ -8,9 +8,6 @@ tags:
    - Floating point
 ---
 
-# About floating point(부동소수점)
-
-
 부동소수점은 컴퓨터가 소수(ex 12.88)를 표현하는 방식이다. 
 
 그 방법은 다음과 같다.
