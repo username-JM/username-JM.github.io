@@ -1,6 +1,7 @@
 ---
 title: "About floating point(부동소수점)"
 excerpt: "floating point 표현방법 및 궁금증"
+classes: wide
 
 categories:
    - IT information
