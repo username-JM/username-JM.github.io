@@ -1,8 +1,10 @@
 # main links
 main:
-  - title: "categories"
-    url: /categories/
   - title: "About"
     url: /about/
+  - title: "Categories"
+    url: /categories/
   - title: "Posts"
     url: /year-archive/
+  - title: "Not-Solved-Problems"
+    url: /help_me/
