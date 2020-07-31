@@ -9,14 +9,8 @@ classes: wide
 
 ![](https://username-jm.github.io/assets/images/pho.png)
 
-Name      :   Junmo, KIM(김준모)   
-Age       :   24   
-e-mail	  :   wnsah1008@gmail.com    
 
-***
-
-
-컴퓨터 공학, 선형대수학, 인공지능 등의 분야를 공부하며 기록하는 개인적인 학습공간입니다.   
+안녕하세요, 김준모입니다. 컴퓨터 공학, 선형대수학, 인공지능 등의 분야를 공부하며 기록하는 개인적인 학습공간입니다.   
 오류나 다른 의견이 있으면 댓글이나 이메일 등으로 언제든지 연락 주세요.
 
 ***
