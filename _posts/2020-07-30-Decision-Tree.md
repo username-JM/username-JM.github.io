@@ -7,6 +7,13 @@ categories:
     - Machine Learning
 tags:
     - Decision Tree
+    - 의사결정트리
+    - 정보함수
+    - 엔트로피
+    - 정보획득량
+    - random_state
+    - 재귀적 분기
+    - Entropy
 ---
 
 ## 정보함수
