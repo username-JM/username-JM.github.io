@@ -13,21 +13,49 @@ tags:
 
 정보함수는 정보의 가치를 반환하는 함수로 발생확률이 낮을 수록 반환값이 커지고 반대인 경우 작아지게 된다.
 
+정보함수 수식은 다음과 같다.
+
+![](https://username-jm.github.io/assets/images/decision_tree/File.jpg)
+
+정보함수를 간단히 그려보면 아래와 같은 감소함수가 그려진다.
+
+![](https://username-jm.github.io/assets/images/decision_tree/File (1).jpg)
+
 쉽게 생각하여 별로 정보가 없는 사건은 희귀하기 때문에(?) 그 가치를 높게 평가하고 정보가 많은 사건은 모두가 다 알기 때문에(?) 가치가 낮다고 정리할 수 있을 것 같다. 
 
-정보함수 수식은 다음과 같다.
-log_2_1/p(x)
+
 
 
 ## 엔트로피
 
 엔트로피는 무질서를 정량화한 값이다. 엔트로피가 높을수록 무질서도가 높기 때문에 정보를 얻기 어렵다. 반대로 엔트로피가 낮으면 무질서도가 낮아 정보를 얻기 쉽다. 즉 분류를 위해서는 집단(클래스)간 정보를 얻고 분류해야 하므로 엔트로피를 낮게 하는 방향으로 학습이 진행되어야한다. 
 
+![](https://username-jm.github.io/assets/images/decision_tree/File (3).jpg)
+
+위 그림은 어떤 영역 A의 데이터를 나타낸 것이다. 빨간색의 1번 클래스와 파란색의 2번 클래스의 데이터가 각각 8개, 5개씩 존재한다. 위 영역A의 엔트로피를 구해보자.
+
+![](https://username-jm.github.io/assets/images/decision_tree/File (2).jpg)
+
 
 
 ## 정보획득량
 
 정보획득량은 이전 엔트로피에서 분류 후 엔트로피의 차이를 의미한다. 엔트로피는 위에서 무질서도를 정량화한 값이라 설명했다. 분류 후 엔트로피가 감소하게 되면 무질서도가 감소했단 의미이며, 이는 정보(혹은 특징)을 그만큼 얻을 수 있다는 의미이다. 
+
+위 영역 A를 A1과 A2영역으로 나누었다.
+
+![](https://username-jm.github.io/assets/images/decision_tree/File (4).jpg)
+
+그 후 각 영역에 대해 엔트로피를 구해보면
+
+![](https://username-jm.github.io/assets/images/decision_tree/File (5).jpg)
+
+
+이제 영역 분류 전 A와 분류 후 A'의 엔트로피 변화량을 계산하면
+
+![](https://username-jm.github.io/assets/images/decision_tree/File (6).jpg)
+
+실제 계산을 끝까지 하진 않았지만 만약 엔트로피가 분류 후 감소하게 되었다면 의사결정트리는 분류를 하는 것이 낫다는 판단 후 분기를 실행한다. 
 
 
 
