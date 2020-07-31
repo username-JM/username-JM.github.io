@@ -41,6 +41,9 @@ tags:
 
 ## 2. Sign, Exponent, Mantissa
 
+부동소수점으로 표현된 소수는 세 부분으로 나뉘게 된다.
+![](https://username-jm.github.io/assets/images/1_floating_point.jpg)
+
 10.25를 예로 들어 설명해보자.
 
 **- Sign bit**   
