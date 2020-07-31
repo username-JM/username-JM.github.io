@@ -11,7 +11,7 @@ classes: wide
 
 Name      :   Junmo, KIM(김준모)   
 Age       :   24   
-e-mail	  :   wnsah1008@gmail.com 
+e-mail	  :   wnsah1008@gmail.com    
 ***
 
 - 2013 ~ 2016   : 동두천외국어고등학교(DFL)-중영과
