@@ -1,5 +1,5 @@
 ---
-title: "SW Expert Academy - 베스트 앨범"
+title: "SW Expert Academy -  베스트 앨범"
 excerpt: "[Python] 코딩테스트 - 해시 문제"
 classes: wide
 
