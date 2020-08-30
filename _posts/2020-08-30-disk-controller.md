@@ -76,27 +76,32 @@ while len(ps_list) > 0 or not waiting_ps.empty():
 
 ```python
 
-from queue import Queue
-
-def solution(bridge_length, weight, truck_weights):
-    q = Queue()
-    # initialize
-    s = 0;
+from queue import PriorityQueue
+def solution(jobs):
+    answer = 0
     time = 0
-    for i in range(bridge_length): #큐를 0으로 채운다. 
-        q.put(0)
-    while True:
-        time += 1
-        s -= q.get() # 큐에서 나갈 트럭 제거
-        if s + truck_weights[0] > weight: #무게 초과?
-            q.put(0)
-            continue
-        if len(truck_weights) == 1: #마지막 트럭?
-            time += bridge_length
-            break
-        tmp = truck_weights.pop(0)  # 새로 넣을 트럭을 추출
-        s += tmp
-        q.put(tmp)
-    return time
+    ps_list = sorted(jobs, key=lambda x : (x[0], x[1]))
+    waiting_ps = PriorityQueue()
+
+    while len(ps_list) > 0 or not waiting_ps.empty():
+        if waiting_ps.empty():
+            ps = ps_list.pop(0)
+            time = ps[0] + ps[1]
+        else:
+            ps = waiting_ps.get()
+            ps = (ps[1], ps[0])
+            time += ps[1]
+
+        answer += time - ps[0]
+        print("time : " + str(time) + "  (" + str(ps[0]) + "," + str(ps[1]) + ")")
+
+        while len(ps_list) > 0:
+            if time > ps_list[0][0]:
+                tmp = ps_list.pop(0)
+                waiting_ps.put((tmp[1], tmp[0]))
+            else:
+                break
+
+    return answer//len(jobs)
     
 ```
