@@ -20,7 +20,7 @@ classes: wide
 - 2019 ~ 2019   : Intern (양재R&D캠퍼스, LG Electronics)
 - 2020 ~ 2020	: Aiffel, 모두의 연구소
 - 2020 ~ 2020	: Google Machine Learning Bootcamp
-- 2021 ~ 	: Korea Univ. - AI
+- 2021 ~ 	    : Korea Univ. - AI
 
 ### Projects
 
