@@ -12,6 +12,3 @@ tags:
 
 
 
-![image](https://user-images.githubusercontent.com/40979215/111583015-1560ae80-87ff-11eb-99ea-3edcafed4eef.png)
-
-
