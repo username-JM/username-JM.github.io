@@ -4,7 +4,7 @@ excerpt: "핵심 키워드 정리 및 random_state의 용도에 대한 고찰"
 classes: wide
 
 categories:
-    - AI
+    - ML & DL
 tags:
     - Decision Tree
     - 의사결정트리

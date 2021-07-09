@@ -4,7 +4,7 @@ excerpt: "다양한 정렬 알고리즘 알아보기"
 classes: wide
 
 categories:
-    - Computer Science
+    - IT
 tags:
     - sorting
     - 정렬알고리즘

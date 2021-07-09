@@ -4,7 +4,7 @@ excerpt: "피보나치 수열 구현 with memoization"
 classes: wide
 
 categories:
-    - Computer Science
+    - IT
 tags:
     - python
     - fibonacci
