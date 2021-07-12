@@ -1,6 +1,5 @@
 ---
-title: "SW Expert Academy -  다리를 지나는 트럭"
-excerpt: "[Python] 코딩테스트 - 스택/큐 문제"
+title: "[Programmers] 다리를 지나는 트럭"
 classes: wide
 
 categories:
@@ -8,8 +7,10 @@ categories:
 tags:
 - algorithm
 - Python
+- coding test
 - 알고리즘 문제
-- SW Expert Academy 풀이
+- 프로그래머스
+- Programmers
 - 다리를 지나는 트럭
 - 파이썬
 ---

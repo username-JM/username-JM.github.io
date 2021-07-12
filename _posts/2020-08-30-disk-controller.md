@@ -1,6 +1,5 @@
 ---
-title: "SW Expert Academy -  디스크 컨트롤러"
-excerpt: "[Python] 코딩테스트 - 힙 문제"
+title: "[Programmers] 디스크 컨트롤러"
 classes: wide
 
 categories:
@@ -8,8 +7,10 @@ categories:
 tags:
 - algorithm
 - Python
+- coding test
 - 알고리즘 문제
-- SW Expert Academy 풀이
+- 프로그래머스
+- Programmers
 - 디스크 컨트롤러
 - 파이썬
 ---

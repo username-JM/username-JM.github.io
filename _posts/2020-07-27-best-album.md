@@ -1,6 +1,5 @@
 ---
-title: "SW Expert Academy -  베스트 앨범"
-excerpt: "[Python] 코딩테스트 - 해시 문제"
+title: "[Programmers] 베스트 앨범"
 classes: wide
 
 categories:
@@ -8,13 +7,15 @@ categories:
 tags:
 - algorithm
 - Python
+- coding test
 - 알고리즘 문제
-- SW Expert Academy 풀이
+- 프로그래머스
+- Programmers
 - 베스트 앨범
 - 파이썬
 ---
 
-## [문제링크](https://programmers.co.kr/learn/courses/30/parts/12077)
+## [문제링크](https://programmers.co.kr/learn/courses/30/lessons/42579)
 
 ## 문제 정리
 

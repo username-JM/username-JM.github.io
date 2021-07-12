@@ -1,5 +1,5 @@
 ---
-title: "Programmers - 타겟 넘버"
+title: "[Programmers] 타겟 넘버"
 classes: wide
 
 categories:
@@ -7,7 +7,9 @@ categories:
 tags:
 - algorithm
 - Python
+- coding test
 - 알고리즘 문제
+- 프로그래머스
 - Programmers
 - 타겟 넘버
 - 파이썬
