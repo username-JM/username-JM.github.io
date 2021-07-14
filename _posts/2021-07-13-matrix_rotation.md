@@ -37,6 +37,9 @@ def solution(rows, columns, queries):
             tmp = []
         else:
             tmp.append(i + 1)
+    # mat = [[i+(j)*columns for i in range(1,columns+1)] for j in range(rows)]
+    
+    
     for q in range(len(queries)):
         index_list = []
         num_list = []
