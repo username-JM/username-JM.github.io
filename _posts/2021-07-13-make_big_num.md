@@ -75,3 +75,136 @@ def pop(n_list):
     return n_list[0], n_list[1:]
 
 ```
+
+아래는 삽질 열심히 한 흔적들이다..
+
+```python
+# 시간 초과 using combination
+
+채점 결과
+정확성: 33.3
+합계: 33.3 / 100.0
+
+from itertools import combinations
+def solution(number, k):
+    tmp = [x for x in number]
+    comb_list = sorted([int(''.join(x)) for x in list(combinations(tmp, len(tmp)-k))])
+    return str(comb_list[-1])
+
+=====================================================================
+
+# 시간 초과 using recursive function 
+
+채점 결과
+정확성: 58.3
+합계: 58.3 / 100.0
+
+def func(sliced, l):
+    if l == 1:
+        return max(sliced)
+    len_sliced = len(sliced)
+    tmp_sliced = sorted(list(enumerate(sliced)), key=lambda x: x[1], reverse=True)
+
+    for pair in tmp_sliced:
+        if len_sliced - pair[0] >= l:
+            return str(pair[1]) + str(func(sliced[pair[0]+1:], l-1))
+    return []
+
+
+def solution(number, k):
+    tmp = [int(x) for x in number]
+    if len(number)-1 == k:
+        return str(max(tmp))
+    answer = func(tmp, len(number) - k)
+    return answer
+
+=====================================================================
+
+# 시간 초과....
+
+채점 결과
+정확성: 75.0
+합계: 75.0 / 100.0
+
+def solution(number, k):
+    def find_max(tup):
+        max_tup = tup[0]
+        for t in tup:
+            if t[0] > max_tup[0]:
+                max_tup = t
+        return max_tup
+
+    tmp = [int(x) for x in number]
+    l = len(number)
+    if l-1 == k:
+        return str(max(tmp))
+    length = l-k
+    tmp_list = list(enumerate(tmp))
+    tmp_list = [(v, i) for (i, v) in tmp_list]
+    org_list = [i for i in tmp_list]
+    answer = ''
+    while True:
+        if length == 1:
+            answer += str(max(tmp_list)[0])
+            break
+        max_val = find_max(tmp_list[:-length+1])
+        answer += str(max_val[0])
+        tmp_list = org_list[max_val[1]+1:]
+        length -= 1
+    return answer
+
+=====================================================================
+
+# 또 시간 초과...
+
+채점 결과
+정확성: 91.7
+합계: 91.7 / 100.0
+
+def solution(number, k):
+    def find_max(start, end):
+        max_tup = tmp_list[start]
+        for i in range(start, end + 1):
+            if tmp_list[i][0] > max_tup[0]:
+                max_tup = tmp_list[i]
+        return max_tup
+    l = len(number)
+    if l-1 == k:
+        return max(number)
+    num_to_pick = l-k
+    tmp_list = [(int(v), i) for (i, v) in enumerate(number)]
+    answer = ''
+    start_ind = 0
+    while True:
+        if num_to_pick == 1:
+            answer += str(find_max(start_ind, l-1)[0])
+            break
+        max_val = find_max(start_ind, l - num_to_pick)
+        answer += str(max_val[0])
+        start_ind = max_val[1]+1
+        num_to_pick -= 1
+    return answer
+
+
+=====================================================================
+
+# 찐막 가즈아~
+
+채점 결과
+정확성: 100.0
+합계: 100.0 / 100.0
+
+def solution(number, k):
+    answer = ""
+    for c in number:
+        if not answer or answer[-1] >= c:
+            if len(answer) < len(number)-k:
+                answer += c
+        else:
+            while answer and k > 0 and answer[-1] < c:
+                answer = answer[:-1]
+                k -= 1
+            answer += c
+    return answer
+
+```
