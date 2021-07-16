@@ -18,9 +18,9 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : "준모의 블로그" #블로그 상단 이름
 title_separator          : "-"
-subtitle                 : "컴공 석사송이의 개발 블로그"#블로그 상단 이름 부가설명
-name                     : "Junmo, KIM"
-description              : "멋쟁이 개발자가 되고 싶은 석사애송이" #어디있지??
+subtitle                 : "Computer Engineering & Artifical Intelligence" #
+name                     : "Junmo Kim"
+description              : "고려대학교에서 인공지능을 전공하고 있는 석박통합과정 대학원생입니다." #어디있지??
 url                      : "https://username-JM.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Junmo, KIM"
   avatar           : "/assets/images/main.jpeg"
-  bio              : "불쌍한 대학원생"
+  bio              : "고려대학교 대학원 인공지능학과"
   location         : "Korea Univ. MAILAB"
   email            :
   links:
