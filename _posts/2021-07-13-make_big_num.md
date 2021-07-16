@@ -25,14 +25,26 @@ tags:
 
 가장 쉽게 접근할 수 있는 방법으로는 입력 숫자의 길이가 l일 때 (l-k) 길이의 모든 숫자 조합을 구하여 이들 중 max값을 찾으면 된다. 하지만 입력 숫자의 길이가 길어질수록 조합을 구하는데 많은 연산이 필요하기 때문에 이 방법으로 문제를 해결하게 되면 정답이 될 수는 있으나 효율성에서 통과하기 어렵다. 
 
-따라서 조금 더 빠른 알고리즘 설계가 필요하다.   
-끝
 
+
+
+따라서 나는 다음과 같은 방법으로 조금 더 효율적인 알고리즘을 구상하였다.
+
+주어진 number의 앞 숫자부터 차례대로 answer에 이어 붙인다.
+
+이 때 붙이려는 수를 $C$, 제거 횟수를 $K$, 그리고 제거 후 길이를 $L = len(number) - K$ 로 정의하자. 
+
+만약 $C$가 마지막 수보다 작은 경우, 현재 answer의 길이가 $L$보다 작다면 answer에 $C$를 이어붙인다. 현재 answer의 길이가 이미 $L$이 되었다면 더이상 수를 이어붙일 수 없으므로 $C$를 버린다 (이 때 $C$라는 수를 제거했기 때문에 $K$가 차감된다). 
+
+$C$가 answer의 마지막 수보다 큰 경우에는 answer의 뒤에서부터 $C$보다 큰 수가 나올 때 까지 차례대로 숫자를 제거한다 (마찬가지로 answer의 숫자를 제거할 때마다 $K$를 1씩 감소시킨다). 
+
+
+위 알고리즘을 코드로 구현한 것이 아래와 두 풀이이다. 
 
 ### python 코드
 
 ```python
-
+# Solution 1
 def solution(number, k):
     answer = ""
     for c in number:
@@ -51,7 +63,7 @@ def solution(number, k):
 
 
 ```python
-
+# Solution 2
 def solution(number, k):
     answer, number = pop(number)
     while k > 0 and number:
