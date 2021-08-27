@@ -85,7 +85,9 @@ def solution(str1, str2):
     return answer
 
 ```
+### 새로 알게된 점
+1. is_alpha()로 손쉽게 알파벳으로만 구성되어있는지 확인할 수 있다. 와우!
 
-is_alpha()로 손쉽게 알파벳으로만 구성되어있는지 확인할 수 있다. 와우!
-c1 & c2 => intersection:  min(c1[x], c2[x])
-c1 | c2 => union: max(c1[x], c2[x])
+2. c1 & c2 => intersection:  min(c1[x], c2[x])
+
+3. c1 | c2 => union: max(c1[x], c2[x])
