@@ -1,5 +1,5 @@
 ---
-title: "[pytorch] requires_grad=Fasle로 해도 학습이 되는 경우"
+title: "[pytorch] requires_grad=False로 해도 학습이 되는 경우"
 classes: wide
 use_math: true
 categories:
@@ -9,7 +9,7 @@ tags:
 - requires_grad
 ---
 
-연구를 하던 중에 어떤 파라미터의 업데이트를 중단하기 위해 $requires\_grad$를 False로 설정해도 계속해서 weight가 업데이트 되는 이슈가 있었다. 
+연구를 하던 중에 어떤 파라미터의 업데이트를 중단하기 위해 requires_grad를 False로 설정해도 계속해서 weight가 업데이트 되는 이슈가 있었다. 
 
 예를 들어 파라미터 $A$와 파라미터 $B$가 있을 때
 
