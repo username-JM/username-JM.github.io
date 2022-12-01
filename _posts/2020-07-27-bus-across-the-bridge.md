@@ -3,7 +3,7 @@ title: "[Programmers] 다리를 지나는 트럭"
 classes: wide
 
 categories:
-- Coding Test
+- Computer Engineering
 tags:
 - algorithm
 - Python

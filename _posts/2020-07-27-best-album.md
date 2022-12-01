@@ -3,7 +3,7 @@ title: "[Programmers] 베스트 앨범"
 classes: wide
 
 categories:
-- Coding Test
+- Computer Engineering
 tags:
 - algorithm
 - Python
