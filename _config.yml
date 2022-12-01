@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "준모의 블로그" #블로그 상단 이름
+title                    : "모모짱의 연구노트" #블로그 상단 이름
 title_separator          : "-"
-subtitle                 : "Computer Engineering & Artifical Intelligence" #
+subtitle                 : "Medical Artifical Intelligence" #
 name                     : "Junmo Kim"
-description              : "고려대학교에서 인공지능을 전공하고 있는 석박통합과정 대학원생입니다." #어디있지??
+description              : "고려대학교 인공지능학과 의료인공지능연구실 석박통합과정" #어디있지??
 url                      : "https://username-JM.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Junmo KIM"
   avatar           : "/assets/images/main.jpeg"
-  bio              : "고려대학교 대학원 인공지능학과\n의료인공지능연구실 (MAILab)"
+  bio              : "고려대학교 인공지능학과    의료인공지능연구실 (MAILab)"
   location         : 
   email            :
   links:
