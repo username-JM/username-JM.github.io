@@ -75,7 +75,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : "/assets/images/IMG_2290.jpg"
+og_image                 : "/assets/images/IMG_7272.JPG"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "Junmo KIM"
-  avatar           : "/assets/images/main.jpeg"
+  avatar           : "/assets/images/IMG_7272.JPG"
   bio              : "고려대학교 인공지능학과    의료인공지능연구실 (MAILab)"
   location         : 
   email            :
