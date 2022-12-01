@@ -5,7 +5,7 @@ layout: single
 classes: wide
 ---
 
-## 준모의 개발 블로그
+## 행복한 대학원생의 연구노트
 
 ![image-center](https://user-images.githubusercontent.com/40979215/204950226-c40cb0de-0879-41b1-b7d4-82be0dde84d0.jpg){: .align-center}
 
@@ -17,7 +17,7 @@ classes: wide
 ***
 
 ### 경력
-- 2013 ~ 2016   : 동두천외국어고등학교(DFL) - Chinese & English
+- 2013 ~ 2016   : Chinese & English, 동두천외국어고등학교(DFL)
 - 2016 ~ 2020   : Department of Computer Engineering, Kwangwoon University
 - 2019 ~ 2019   : Intern (양재R&D캠퍼스, LG Electronics)
 - 2020 ~ 2020	: Aiffel 1기, 모두의 연구소
