@@ -7,7 +7,7 @@ classes: wide
 
 ## 행복한 대학원생의 연구노트
 
-![image-center](https://user-images.githubusercontent.com/40979215/204950226-c40cb0de-0879-41b1-b7d4-82be0dde84d0.jpg){: .align-center}
+![image-center](https://user-images.githubusercontent.com/40979215/204950226-c40cb0de-0879-41b1-b7d4-82be0dde84d0.jpg){: .align-center width="200" height="300"}
 
 
 안녕하세요, 현재 고려대학교 인공지능학과 의료인공지능연구실에서 연구하고있는 김준모입니다.
