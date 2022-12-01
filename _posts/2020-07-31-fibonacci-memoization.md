@@ -4,7 +4,7 @@ excerpt: "피보나치 수열 구현 with memoization"
 classes: wide
 
 categories:
-    - IT
+    - Computer Engineering
 tags:
     - python
     - fibonacci
@@ -12,6 +12,7 @@ tags:
     - 피보나치
     - 피보나치 파이썬 구현
     - 메모아이제이션
+    - algorithm
 ---
 
 피보나치 수열은 이전 두 개의 요소를 더해 다음 요소를 만들어 나가는 수열이다.

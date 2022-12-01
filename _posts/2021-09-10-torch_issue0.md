@@ -1,9 +1,9 @@
 ---
-title: "[pytorch] requires_grad=False로 해도 학습이 되는 경우"
+title: "[Pytorch] requires_grad=False로 해도 학습이 되는 경우"
 classes: wide
 use_math: true
 categories:
-- Pytorch
+- Computer Engineering
 tags:
 - pytorch
 - requires_grad

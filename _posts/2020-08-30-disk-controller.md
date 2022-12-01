@@ -3,7 +3,7 @@ title: "[Programmers] 디스크 컨트롤러"
 classes: wide
 
 categories:
-- Coding Test
+- Computer Engineering
 tags:
 - algorithm
 - Python

@@ -3,7 +3,7 @@ title: "[Programmers] 거리두기 확인하기"
 classes: wide
 use_math: true
 categories:
-- Coding Test
+- Computer Engineering
 tags:
 - algorithm
 - Python

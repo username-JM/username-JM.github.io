@@ -4,7 +4,7 @@ excerpt: "floating point 표현방법 및 궁금증"
 classes: wide
 
 categories:
-   - IT
+   - Computer Engineering
 tags:
    - Floating point
 ---

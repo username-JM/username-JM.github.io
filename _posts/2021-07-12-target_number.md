@@ -3,7 +3,7 @@ title: "[Programmers] 타겟 넘버"
 classes: wide
 use_math: true
 categories:
-- Coding Test
+- Computer Engineering
 tags:
 - algorithm
 - Python

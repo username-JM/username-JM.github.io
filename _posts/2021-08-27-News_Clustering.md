@@ -3,7 +3,7 @@ title: "[Programmers] 뉴스 클러스터링"
 classes: wide
 use_math: true
 categories:
-- Coding Test
+- Computer Engineering
 tags:
 - algorithm
 - Python

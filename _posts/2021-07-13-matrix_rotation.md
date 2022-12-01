@@ -3,7 +3,7 @@ title: "[Programmers] 행렬 테두리 회전하기"
 classes: wide
 use_math: true
 categories:
-- Coding Test
+- Computer Engineering
 tags:
 - algorithm
 - Python
