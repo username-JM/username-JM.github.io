@@ -6,5 +6,4 @@ main:
     url: /categories/
   - title: "Posts"
     url: /year-archive/
-  - title: "Unsolved-Issues"
-    url: /help_me/
+
